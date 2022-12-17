@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font: 1.02em cursive;
+}
+.logo{
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    padding: 7px 5px;
+
+}
+body{
+    background-color: #ebebeb;
+}
+.menu{
+    float: right;
+}
+.menu > ul{
+    margin: 0;
+    padding: 20px;
+    list-style-type: none;
+}
+.menu > ul > li{
+    float: left;
+}
+.menu-item{
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color:black;
+}
+.menu-item1{
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #F38648;
+}
+.menu-item:focus ~ .sub-contect{
+    max-height: 400px;
+    transition: max-height 0.3s ease-in;
+    -moz-transition: max-height 0.3s ease-in;
+}
+.sub-contect{
+    position: absolute;
+    top: 60px;
+    overflow: hidden;
+    max-height: 0;
+}
+.menu-itme:hover{
+    background-color:#b3b3b3;
+}
+.sub-contect a {
+    text-decoration: none;
+}
+.sub-drop{
+    padding: 0;
+}
+.sub-drop ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.menu ul li:hover .sub-contect{
+    max-height: 400px;
+    transition: max-height 0.6s ease-in;
+}
+.Weekly{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-150%,-40%);
+    border: 1px solid #b3b3b3;
+    padding: 40px;
+    width: 8%;
+    height: 30%;
+}
+.Weekly:hover{
+    box-shadow: 3px 3px 50px #F38648;
+}
+.Monthly{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-5%,-40%);
+    border: 1px solid #b3b3b3;
+    padding: 40px;
+    width: 8%;
+    height: 30%;
+}
+.Monthly:hover{
+    box-shadow: 3px 3px 50px #F38648;
+}
+.button{
+    width: 65%;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 80px;
+    position: absolute;
+}
+h1{
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0;
+    color: #b3b3b3;
+    padding-bottom: 50px;
+}
+h2{
+    position: absolute;
+    right: 50%;
+    padding-top: 200px;
+    font-weight: bold;
+    font-size: 28px;
+}
+.Weekly ul{
+padding-top: 20px;
+}
+.Monthly ul{
+    padding-top: 20px;
+}
+.wave{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}

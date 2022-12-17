@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font: 1.02em cursive;
+}
+.logo{
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    padding: 7px 5px;
+
+}
+body{
+    background-color: #ebebeb;
+}
+
+
+.menu{
+    float: right;
+}
+.menu > ul{
+    margin: 0;
+    padding: 20px;
+    list-style-type: none;
+}
+.menu > ul > li{
+    float: left;
+}
+.menu-item{
+   display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color:black;
+}
+
+.menu-item1{
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #F38648;
+}
+.menu-item:focus ~ .sub-contect{
+    max-height: 400px;
+    transition: max-height 0.3s ease-in;
+    -moz-transition: max-height 0.3s ease-in;
+}
+.sub-contect{
+    position: absolute;
+    top: 60px;
+    overflow: hidden;
+    max-height: 0;
+}
+.menu-itme:hover{
+    background-color:#b3b3b3;
+}
+.sub-contect a {
+    text-decoration: none;
+}
+.sub-drop{
+    padding: 0;
+}
+.sub-drop ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.menu ul li:hover .sub-contect{
+    max-height: 400px;
+    transition: max-height 0.6s ease-in;
+}
+.intro{
+    padding: 75px;
+    margin: 10px;
+    float: left;
+    padding-top: 370px;
+    position: absolute;
+    left: 290px;
+    font-weight: bold;
+}
+.intro1{
+    font-weight: bold;
+    position: fixed;
+    right: 78%;
+    top: 58%;
+}
+.intro2{
+    font-weight: bold;
+    position: fixed;
+    right: 78%;
+    top: 61%;
+}
+.scooter{
+    position: absolute;
+    float:right;
+    padding:140px 940px;
+    width: 25% ;
+}
+.logo1{
+    position: absolute;
+    padding-top: 220px;
+    padding-left: 1000px;
+}
+.wave{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.word{
+    font-weight: bold;
+   position: fixed;
+    right: 85%;
+    bottom: 44%;
+}
+.box{
+    position: fixed;
+    bottom: 35%;
+    right: 60%;
+}
+.box1{
+    position: fixed;
+    bottom: 35%;
+    right: 60%;
+}
+.word2{
+    font-weight: bold;
+    position: fixed;
+    right: 58%;
+    bottom: 44%;
+}
+.intro3{
+    font-weight: bold;
+    position: fixed;
+    right: 50%;
+    top: 58%;
+}
+.intro4{
+    font-weight: bold;
+    position: fixed;
+    right: 50%;
+    top: 61%;
+}
+
+
+
